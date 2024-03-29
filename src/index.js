@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-import { sendToVercelAnalytics } from './vitals';
+import Game from './Game/Game';
+import reportWebVitals from './Core/reportWebVitals';
+import { sendToVercelAnalytics } from './Core/vitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Game />
   </React.StrictMode>,
   document.getElementById('root')
 );
